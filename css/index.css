@@ -1,0 +1,25 @@
+.container-main {
+  width: 92%;
+}
+
+.text-center > img {
+  transform: scale(1);
+  transition: all 1s;
+}
+
+#avatar-img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.labels > li {
+  cursor: pointer;
+}
+
+.labels > li:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+}
